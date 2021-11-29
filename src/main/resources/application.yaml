@@ -1,0 +1,23 @@
+server:
+  port: 8093
+
+spring:
+  application:
+    name: SPRING-BOOT-ADMIN-SERVER
+  security:
+    user: 
+      name: admin
+      password: admin
+  boot:
+    admin:
+      notify:
+        telegram:
+          enabled: true
+          api-url: "https://api.telegram.org"
+          auth-token: "2123384577:AAEr45wZYdfPA7IxIwY315E8ctOiSM7OzGY"
+          chat-id: "-679723910"
+        ms-teams:
+          enabled: true
+          webhook-url: https://merckgroup.webhook.office.com/webhookb2/ed5c4011-5cf3-476a-a0f4-94ab0ab02fa5@db76fb59-a377-4120-bc54-59dead7d39c9/IncomingWebhook/5a1b216de4cf4ec284cbb541d0bb0b02/8bffaae4-9238-4367-813f-defcdc8f07b0
+       
+        
